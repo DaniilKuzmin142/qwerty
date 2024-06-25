@@ -6,7 +6,7 @@ import jm.task.core.jdbc.util.Util;
 
 public class Main {
     public static void main(String[] args) {
-        Util.checkConnection();1
+        Util.checkConnection();
         // реализуйте алгоритм здесь
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
